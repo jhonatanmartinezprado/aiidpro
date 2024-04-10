@@ -3,7 +3,7 @@ import {
   Drawer,
 } from "@material-tailwind/react";
 
-export default function Layout() {
+export default function Header() {
 
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
 
@@ -110,7 +110,7 @@ export default function Layout() {
         </div>
       </div>
       {/* Navbar Section */}
-      <Drawer className="fixed" size={339} open={isDrawerOpen} onClose={closeDrawer}>
+      <Drawer className="fixed z-50" size={339} open={isDrawerOpen} onClose={closeDrawer}>
         <div className="flex flex-col justify-between px-4 pb-14 border-r border-solid bg-neutral-900 border-white border-opacity-10 max-w-[339px] h-full">
           <div className="flex flex-col">
             <div className="flex gap-5 justify-between py-8 border-b border-solid border-white border-opacity-10">

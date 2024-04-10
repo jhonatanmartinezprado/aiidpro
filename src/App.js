@@ -1,11 +1,13 @@
-import Layout from './pages/layout/index'
-import Dashboard from './pages/dashboard/index'
+import Header from './pages/layout/header'
+import Footer from './pages/layout/footer'
+import Dashboard from './pages/dashboard/main/index'
 
 function App() {
   return (
     <div className="App">
-      <Layout/>
+      <Header/>
       <Dashboard/>
+      <Footer/>
     </div>
   );
 }
