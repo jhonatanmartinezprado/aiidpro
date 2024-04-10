@@ -7,8 +7,12 @@ module.exports = {
     extend: {
       colors: {
         'gray-850': '#1c1c1c',
+        'lightGray': '#A5A5A5'
       }
     },
+    screens: {
+      '1200': '1200px'
+    }
   },
   plugins: [],
 }
