@@ -153,9 +153,9 @@ export default function Header() {
         </div>
       </Drawer>
       {/* Header Section */}
-      <div className="flex flex-col self-start px-10 pb-40 mt-24 text-white max-1200:px-5 max-1200:mt-10 max-1200:max-w-full w-full bg-100% bg-right bg-no-repeat min-[1200px]:bg-hero-pattern">
+      <div className="flex flex-col self-start px-10 pb-40 pt-24 text-white max-1200:px-5 max-1200:mt-10 max-1200:max-w-full w-full bg-right bg-no-repeat min-[1200px]:bg-hero-pattern bg-[right_bottom_-0.5rem]">
         <div className="text-5xl font-bold tracking-tight leading-[65px] max-1200:max-w-full max-1200:text-4xl">
-          Hi John 👋{" "}
+          Hi John 👋
         </div>
         <div className="mt-2 text-base tracking-normal leading-6 max-1200:max-w-full text-lightGray">
           Here you can see key information about your finances

@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 export default function CreditSummary() {
     return (
         <div className="flex flex-col p-8 bg-white rounded-3xl max-md:px-5 mt-6">
-            <div className="text-2xl font-semibold leading-8 text-center text-neutral-800 max-md:max-w-full">
+            <div className="text-2xl font-semibold leading-8 text-left text-neutral-800 max-md:max-w-full">
                 Credit Summary
             </div>
             <div className="flex gap-5 justify-between mt-8 max-md:flex-wrap max-md:max-w-full">
@@ -53,12 +53,7 @@ export default function CreditSummary() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <CreditSummaryCard
-                            count={15}
-                            name="Open Accounts"/>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CreditSummaryCard
-                            count={15}
+                            count="97%"
                             name="Open Accounts"/>
                     </SwiperSlide>
                     <SwiperSlide>

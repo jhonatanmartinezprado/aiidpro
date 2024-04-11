@@ -10,7 +10,7 @@ export default function CreditScores() {
     return (
         <div className="flex flex-col p-8 bg-white rounded-3xl max-md:px-5">
             <div className="flex gap-5 justify-between w-full leading-[140%] max-md:flex-wrap max-md:max-w-full">
-                <div className="self-start mt-3.5 text-2xl font-semibold text-center text-neutral-800">
+                <div className="self-start mt-3.5 text-2xl font-semibold text-center text-neutral-800 font-bold">
                 Credit Scores
                 </div>
                 <div className="max-[640px]:hidden flex gap-4 text-sm tracking-normal text-neutral-900">

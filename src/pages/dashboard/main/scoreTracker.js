@@ -7,7 +7,7 @@ export default function ScoreTracker() {
                 Score Tracker
             </div>
             <div className="flex flex-col mt-10 max-md:max-w-full">
-                <div className="flex gap-3 justify-between max-md:flex-wrap">
+                <div className="flex gap-3 justify-start w-full max-md:flex-wrap">
                 <div className="flex flex-col text-sm tracking-normal leading-5 whitespace-nowrap text-stone-500 max-md:hidden">
                     <div>720</div>
                     <div className="mt-5">700</div>
@@ -18,7 +18,7 @@ export default function ScoreTracker() {
                     <div className="mt-5">600</div>
                     <div className="mt-5">580</div>
                 </div>
-                <div className="flex flex-col max-md:max-w-full">
+                <div className="flex flex-col w-full overflow-hidden">
                     <div className="flex flex-col self-end mr-48 max-w-full text-white leading-[140%] w-[113px] max-md:mr-2.5">
                     <div className="flex flex-col px-4 pt-2.5 pb-4 bg-rose-400 rounded-lg">
                         <div className="flex flex-col justify-center text-sm whitespace-nowrap">
@@ -106,8 +106,8 @@ export default function ScoreTracker() {
                     </div>
                 </div>
                 </div>
-                <div className="flex gap-5 self-center mt-3 ml-5 text-sm tracking-normal leading-5 whitespace-nowrap text-stone-500 max-md:flex-wrap">
-                <div className="grow">02/23</div>
+                <div className="flex justify-between gap-5 self-center mt-3 ml-5 text-sm tracking-normal leading-5 whitespace-nowrap text-stone-500 max-md:flex-wrap w-full overflow-hidden">
+                <div>02/23</div>
                 <div>03/23</div>
                 <div>04/23</div>
                 <div>05/23</div>

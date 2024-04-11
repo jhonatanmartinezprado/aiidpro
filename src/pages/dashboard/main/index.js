@@ -11,10 +11,11 @@ import ChatItem4 from "./chartItem4";
 
 export default function Layout() {
     return (
-        <div className="px-10 max-[640px]:px-0 max-1200:px-5 bg-backColor">
+        <div className="px-10 max-[640px]:px-0 max-1200:px-5 bg-backColor font-poppins">
             <div className="-translate-y-16">
+                {/* Desktop */}
                 <div className="max-[640px]:hidden grid grid-cols-4 max-1200:grid-cols-2 gap-5 max-[640px]:gap-0">
-                    <div className="col-span-3">
+                    <div className="col-span-3 max-1200:col-span-2">
                         <CreditScores/>
                         <DisputeResolution/>
                         <ScoreTracker/>
@@ -26,6 +27,7 @@ export default function Layout() {
                         <ChatItem4/>
                     </div>
                 </div>
+                {/* Mobile */}
                 <div className="min-[640px]:hidden">
                     <CreditScores/>
                     <ChatItem1/>

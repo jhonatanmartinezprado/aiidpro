@@ -46,25 +46,25 @@ export default function DisputeResolution() {
                                 <tr>
                                     <th className="w-[30%] rounded-tl-2xl rounded-bl-2xl">
                                         <div className="flex flex-col flex-1 justify-center items-start px-4 py-3 max-md:pr-5 ">
-                                            <div className="justify-center ">Status</div>
+                                            <div className="justify-center font-normal">Status</div>
                                         </div>
                                     </th>
                                     <th className="w-[21%] ">
                                         <div className="flex flex-col flex-1 justify-start items-start px-0 py-3 max-md:pr-5">
-                                            <div className="max-[640px]:hidden justify-center">TransUnion</div>
-                                            <div className="min-[640px]:hidden justify-center">TRU</div>
+                                            <div className="max-[640px]:hidden justify-center font-normal">TransUnion</div>
+                                            <div className="min-[640px]:hidden justify-center font-normal">TRU</div>
                                         </div>
                                     </th>
                                     <th className="w-[21%] ">
                                         <div className="flex flex-col flex-1 justify-start items-start px-0 py-3 max-md:pr-5">
-                                            <div className="max-[640px]:hidden justify-center">Experian</div>
-                                            <div className="min-[640px]:hidden justify-center">EXP</div>
+                                            <div className="max-[640px]:hidden justify-center font-normal">Experian</div>
+                                            <div className="min-[640px]:hidden justify-center font-normal">EXP</div>
                                         </div>
                                     </th>
                                     <th className="w-[23%] rounded-tr-2xl rounded-br-2xl">
                                         <div className="flex flex-col flex-1 justify-start items-start px-0 py-3 max-md:pr-5">
-                                            <div className="max-[640px]:hidden justify-center">Equifax</div>
-                                            <div className="min-[640px]:hidden justify-center">EQ</div>
+                                            <div className="max-[640px]:hidden justify-center font-normal">Equifax</div>
+                                            <div className="min-[640px]:hidden justify-center font-normal">EQ</div>
                                         </div>
                                     </th>
                                 </tr>
@@ -72,30 +72,11 @@ export default function DisputeResolution() {
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div className="flex flex-col max-[800px] w-3/12 ml-0 max-md:w-full">
-                                                <div className="flex flex-col justify-center px-4 py-2.5 whitespace-nowrap max-md:pr-5">
+                                            <div className="flex flex-col w-3/12 ml-0 max-md:w-full">
+                                                <div className="flex flex-col justify-center items-start px-4 py-2.5 whitespace-nowrap max-md:pr-5">
                                                     <div className="flex gap-2.5 px-2 py-1 bg-teal-300 bg-opacity-10 rounded-[100px]">
-                                                        <div className="shrink-0 my-auto w-2 h-2 bg-teal-300 rounded-full" />
-                                                        <div className="text-ellipsis">
-                                                            Unspecified
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div className="flex flex-col max-[800px] w-3/12 ml-0 max-md:w-full">
-                                                <div className="flex flex-col justify-center px-4 py-2.5 whitespace-nowrap max-md:pr-5">
-                                                    <div className="flex gap-2.5 px-2 py-1 bg-teal-300 bg-opacity-10 rounded-[100px]">
-                                                        <div className="shrink-0 my-auto w-2 h-2 bg-teal-300 rounded-full" />
-                                                        <div className="text-ellipsis">
-                                                            Unspecified
-                                                        </div>
+                                                    <div className="shrink-0 my-auto w-2 h-2 bg-teal-300 rounded-full" />
+                                                    <div className="text-ellipsis">Unexpeted</div>
                                                     </div>
                                                 </div>
                                             </div>
