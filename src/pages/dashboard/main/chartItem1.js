@@ -18,7 +18,7 @@ export default function ChatItem1() {
                 </div>
                 </div>
                 <div className="flex flex-col justify-center mt-6 text-sm tracking-normal leading-5">
-                <div className="justify-center items-center px-6 py-3.5 text-white whitespace-nowrap rounded-2xl bg-neutral-900">
+                <div className="flex justify-center items-center px-6 py-3.5 text-white whitespace-nowrap rounded-2xl bg-neutral-900">
                     Resume
                 </div>
                 <div className="justify-center self-center mt-4 underline rounded-2xl text-neutral-900">
